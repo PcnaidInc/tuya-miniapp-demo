@@ -358,6 +358,10 @@ English[](README.md) | [简体中文](README_zh.md)
 - [official website](https://developer.tuya.com/miniapp)
 - [Developer Forum](https://www.tuyaos.com/posting.php?mode=post&f=10)
 
+## CI
+
+The CI workflow (`.github/workflows/ci.yml`) runs on pull requests and pushes to `master`. It checks code formatting with Prettier.
+
 ## License
 
 For more information, see [MIT License](LICENSE).
