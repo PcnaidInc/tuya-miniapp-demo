@@ -20,5 +20,5 @@ jobs:
       - uses: actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e # v4.3.0
         with:
           node-version: '20'
-      - run: npm install
-      - run: npx prettier --check ./*/src/
+      - run: npm ci
+      - run: npx --yes prettier --check ./*/src/
